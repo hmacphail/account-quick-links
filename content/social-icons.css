@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'socialicons';
+  src: url('social-icons.woff') format('woff');
+}
+.socialicon,
+.icon12,
+.icon16,
+.icon20,
+.icon24,
+.icon32,
+.icon64 {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'socialicons';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.icon-movie:before {
+    content: "\e901";
+}
+.icon-suitcase:before {
+    content: "\e902";
+}
+.icon-steam-square:before {
+    content: "\e903";
+}
+.icon-jsfiddle:before {
+    content: "\e904";
+}
+.icon-linkedin-square:before {
+    content: "\e905";
+}
+.icon-stack-overflow:before {
+    content: "\e906";
+}
+.icon-github:before {
+    content: "\e907";
+}
+.icon-reddit-alien:before {
+    content: "\e908";
+}
+.icon-pinterest:before {
+    content: "\e909";
+}
+.icon-add-to-list:before {
+    content: "\e90a";
+}
+.icon-game-controller:before {
+    content: "\e90b";
+}
+.icon-icloud:before {
+    content: "\e90c";
+}
+.icon-spotify:before {
+    content: "\e90d";
+}
+.icon-shuffle:before {
+    content: "\e90e";
+}
+.icon-soundcloud:before {
+    content: "\e90f";
+}
+.icon-instagram:before {
+    content: "\e910";
+}
+.icon-facebook:before {
+    content: "\e911";
+}
+.icon-twitter:before {
+    content: "\e912";
+}
+.icon-evernote:before {
+    content: "\e900";
+}
+.icon-headphones:before {
+    content: "\e913";
+}
+.icon-books:before {
+    content: "\e914";
+}
+.icon-bookmark:before {
+    content: "\e917";
+}
+.icon-heart:before {
+    content: "\e915";
+}
+.icon-tumblr2:before {
+    content: "\e916";
+}
+
