@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'qic';
+  src: url('quickicons.woff') format('woff');
+}
+.qic,
+.icon12,
+.icon16,
+.icon20,
+.icon24,
+.icon32,
+.icon64 {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'qic';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.icon-modem:before {
+    content: "\e900";
+}
+.icon-pig:before {
+    content: "\e901";
+}
+.icon-droplet:before {
+    content: "\e90b";
+}
+.icon-headphones:before {
+    content: "\e910";
+}
+.icon-menu:before {
+    content: "\e9bd";
+}
+.icon-bookmark:before {
+    content: "\e9d2";
+}
+.icon-spotify:before {
+    content: "\ea94";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+.icon-rss2:before {
+    content: "\ea9c";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-trello:before {
+    content: "\eab3";
+}
+.icon-tumblr2:before {
+    content: "\eaba";
+}
+.icon-linkedin:before {
+    content: "\eac9";
+}
+.icon-pinterest:before {
+    content: "\ead1";
+}
+.icon-check-square-o:before {
+    content: "\f046";
+}
+.icon-dropbox:before {
+    content: "\f16b";
+}
+.icon-stack-overflow:before {
+    content: "\f16c";
+}
+.icon-steam-square:before {
+    content: "\f1b7";
+}
+.icon-jsfiddle:before {
+    content: "\f1cc";
+}
+.icon-reddit-alien:before {
+    content: "\f281";
+}
+.icon-equalizer:before {
+    content: "\e01d";
+}
+.icon-local_library:before {
+    content: "\e54b";
+}
+.icon-movie_creation:before {
+    content: "\e404";
+}
+.icon-speaker:before {
+    content: "\e32d";
+}
+.icon-game-controller:before {
+    content: "\e902";
+}
+.icon-heart:before {
+    content: "\e903";
+}
+.icon-leaf:before {
+    content: "\e904";
+}
+.icon-old-phone:before {
+    content: "\e90c";
+}
+.icon-shuffle:before {
+    content: "\e905";
+}
+.icon-suitcase:before {
+    content: "\e906";
+}
+.icon-evernote:before {
+    content: "\e907";
+}
+.icon-soundcloud:before {
+    content: "\e908";
+}
+.icon-facebook:before {
+    content: "\e909";
+}
+.icon-instagram:before {
+    content: "\e90a";
+}
