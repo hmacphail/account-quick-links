@@ -1,0 +1,118 @@
+/*** DEFAULT PROPERTIES ***/
+body {
+  font: 32px/32px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #ccc;
+  background: white;
+}
+.title {
+	font-size: 20px;
+  font-weight: normal;
+  color: #888;
+  letter-spacing: -0.5px;
+}
+.icons a {
+  color: #444;
+  &:hover {
+    color: #9bddf8;
+  }
+}
+.l { font-size: 22px; }
+.m { font-size: 20px; }
+.s { font-size: 18px; }
+
+/*** THEMES ***/
+.pastel-gradient-theme {
+  @color1: #9e8cd9; @color2: #ad87d2; @color3: #2d98b6; @color4: #48b7cb; @color5: #63c2c1; @color6: #91ccc0; @color7: #63c684; @color8: #9bca5b; @color9: #f3a533; @color10: #f35a4e;
+
+  background-color: #fefefe;
+  #main {
+    margin: 30px 100px;
+    .section {
+      margin-bottom: 25px;
+    }
+    .title {
+      color: #444;
+      margin-bottom: -5px;
+      font-variant: small-caps;
+    }
+    .icons a {
+      margin-right: 5px;
+    }
+    #socialmedia {
+      a { color: @color1; }
+      .title, a:hover { color: darken(@color1, 20%); }
+    }
+    #music {
+      a { color: @color2; }
+      .title, a:hover { color: darken(@color2, 20%); }
+    }
+    #softwaredev {
+      a { color: @color3; }
+      .title, a:hover { color: darken(@color3, 20%); }
+    }
+    #games {
+      a { color: @color4; }
+      .title, a:hover { color: darken(@color4, 20%); }
+    }
+    #misc {
+      a { color: @color5; }
+      .title, a:hover { color: darken(@color5, 20%); }
+    }
+    #productivity {
+      a { color: @color6; }
+      .title, a:hover { color: darken(@color6, 20%); }
+    }
+    #financial {
+      a { color: @color7; }
+      .title, a:hover { color: darken(@color7, 20%); }
+    }
+  }
+}
+
+
+.bright-theme {
+  @color1: #2d6ea3; @color2: #fd7339; @color3: #772c94; @color4: #fdaa39; @color5: #27ac76; @color6: #df4d3c; @color7: #95ce37;
+
+  background-color: #fff;
+  #main {
+    margin: 30px 100px;
+    .section {
+      margin-bottom: 25px;
+    }
+    a:hover {
+      color: #ccd6dd !important;
+    }
+    .icons a {
+      margin-right: 5px;
+    }
+    #socialmedia {
+      a { color: @color1; }
+      .title { color: lighten(@color1, 20%); }
+    }
+    #music {
+      a { color: @color2; }
+      .title { color: lighten(@color2, 20%); }
+    }
+    #softwaredev {
+      a { color: @color3; }
+      .title { color: lighten(@color3, 20%); }
+    }
+    #games {
+      a { color: @color4; }
+      .title { color: lighten(@color4, 20%); }
+    }
+    #misc {
+      a { color: @color5; }
+      .title { color: lighten(@color5, 20%); }
+    }
+    #productivity {
+      a { color: @color6; }
+      .title { color: lighten(@color6, 20%); }
+    }
+    #financial {
+      a { color: @color7; }
+      .title { color: lighten(@color7, 20%); }
+    }
+  }
+}

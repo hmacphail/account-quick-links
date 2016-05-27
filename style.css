@@ -1,24 +1,152 @@
+/*** DEFAULT PROPERTIES ***/
 body {
   font: 32px/32px "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #ccc;
   background: white;
 }
-
 .title {
-	font-size: 20px;
+  font-size: 20px;
   font-weight: normal;
   color: #888;
   letter-spacing: -0.5px;
 }
-
 .icons a {
   color: #444;
 }
 .icons a:hover {
   color: #9bddf8;
 }
-
-.l { font-size: 22px; }
-.m { font-size: 20px; }
-.s { font-size: 18px; }
+.l {
+  font-size: 22px;
+}
+.m {
+  font-size: 20px;
+}
+.s {
+  font-size: 18px;
+}
+/*** THEMES ***/
+.pastel-gradient-theme {
+  background-color: #fefefe;
+}
+.pastel-gradient-theme #main {
+  margin: 30px 100px;
+}
+.pastel-gradient-theme #main .section {
+  margin-bottom: 25px;
+}
+.pastel-gradient-theme #main .title {
+  color: #444;
+  margin-bottom: -5px;
+  font-variant: small-caps;
+}
+.pastel-gradient-theme #main .icons a {
+  margin-right: 5px;
+}
+.pastel-gradient-theme #main #socialmedia a {
+  color: #9e8cd9;
+}
+.pastel-gradient-theme #main #socialmedia .title,
+.pastel-gradient-theme #main #socialmedia a:hover {
+  color: #5d3fc0;
+}
+.pastel-gradient-theme #main #music a {
+  color: #ad87d2;
+}
+.pastel-gradient-theme #main #music .title,
+.pastel-gradient-theme #main #music a:hover {
+  color: #7a42b1;
+}
+.pastel-gradient-theme #main #softwaredev a {
+  color: #2d98b6;
+}
+.pastel-gradient-theme #main #softwaredev .title,
+.pastel-gradient-theme #main #softwaredev a:hover {
+  color: #195464;
+}
+.pastel-gradient-theme #main #games a {
+  color: #48b7cb;
+}
+.pastel-gradient-theme #main #games .title,
+.pastel-gradient-theme #main #games a:hover {
+  color: #267887;
+}
+.pastel-gradient-theme #main #misc a {
+  color: #63c2c1;
+}
+.pastel-gradient-theme #main #misc .title,
+.pastel-gradient-theme #main #misc a:hover {
+  color: #368988;
+}
+.pastel-gradient-theme #main #productivity a {
+  color: #91ccc0;
+}
+.pastel-gradient-theme #main #productivity .title,
+.pastel-gradient-theme #main #productivity a:hover {
+  color: #4ea996;
+}
+.pastel-gradient-theme #main #financial a {
+  color: #63c684;
+}
+.pastel-gradient-theme #main #financial .title,
+.pastel-gradient-theme #main #financial a:hover {
+  color: #348f52;
+}
+.bright-theme {
+  background-color: #fff;
+}
+.bright-theme #main {
+  margin: 30px 100px;
+}
+.bright-theme #main .section {
+  margin-bottom: 25px;
+}
+.bright-theme #main a:hover {
+  color: #ccd6dd !important;
+}
+.bright-theme #main .icons a {
+  margin-right: 5px;
+}
+.bright-theme #main #socialmedia a {
+  color: #2d6ea3;
+}
+.bright-theme #main #socialmedia .title {
+  color: #62a1d4;
+}
+.bright-theme #main #music a {
+  color: #fd7339;
+}
+.bright-theme #main #music .title {
+  color: #feba9e;
+}
+.bright-theme #main #softwaredev a {
+  color: #772c94;
+}
+.bright-theme #main #softwaredev .title {
+  color: #ad58ce;
+}
+.bright-theme #main #games a {
+  color: #fdaa39;
+}
+.bright-theme #main #games .title {
+  color: #fed59e;
+}
+.bright-theme #main #misc a {
+  color: #27ac76;
+}
+.bright-theme #main #misc .title {
+  color: #5edba8;
+}
+.bright-theme #main #productivity a {
+  color: #df4d3c;
+}
+.bright-theme #main #productivity .title {
+  color: #ed9d94;
+}
+.bright-theme #main #financial a {
+  color: #95ce37;
+}
+.bright-theme #main #financial .title {
+  color: #c0e289;
+}
