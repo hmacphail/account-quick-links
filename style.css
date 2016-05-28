@@ -1,9 +1,7 @@
 /*** DEFAULT PROPERTIES ***/
 body {
   font: 32px/32px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
   color: #ccc;
-  background: white;
 }
 .title {
   font-size: 20px;
@@ -17,6 +15,15 @@ body {
 .icons a:hover {
   color: #9bddf8;
 }
+#footer {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}
+#footer select {
+  font: 14px Arial, sans-serif;
+  padding: 3px 5px;
+}
 .l {
   font-size: 22px;
 }
@@ -27,126 +34,171 @@ body {
   font-size: 18px;
 }
 /*** THEMES ***/
-.pastel-gradient-theme {
+.pastel-gradient {
   background-color: #fefefe;
 }
-.pastel-gradient-theme #main {
+.pastel-gradient #main {
   margin: 30px 100px;
 }
-.pastel-gradient-theme #main .section {
+.pastel-gradient #main .section {
   margin-bottom: 25px;
 }
-.pastel-gradient-theme #main .title {
+.pastel-gradient #main .title {
   color: #444;
   margin-bottom: -5px;
   font-variant: small-caps;
 }
-.pastel-gradient-theme #main .icons a {
+.pastel-gradient #main .icons a {
   margin-right: 5px;
 }
-.pastel-gradient-theme #main #socialmedia a {
+.pastel-gradient #main #socialmedia a {
   color: #9e8cd9;
 }
-.pastel-gradient-theme #main #socialmedia .title,
-.pastel-gradient-theme #main #socialmedia a:hover {
+.pastel-gradient #main #socialmedia .title,
+.pastel-gradient #main #socialmedia a:hover {
   color: #5d3fc0;
 }
-.pastel-gradient-theme #main #music a {
+.pastel-gradient #main #music a {
   color: #ad87d2;
 }
-.pastel-gradient-theme #main #music .title,
-.pastel-gradient-theme #main #music a:hover {
+.pastel-gradient #main #music .title,
+.pastel-gradient #main #music a:hover {
   color: #7a42b1;
 }
-.pastel-gradient-theme #main #softwaredev a {
+.pastel-gradient #main #softwaredev a {
   color: #2d98b6;
 }
-.pastel-gradient-theme #main #softwaredev .title,
-.pastel-gradient-theme #main #softwaredev a:hover {
+.pastel-gradient #main #softwaredev .title,
+.pastel-gradient #main #softwaredev a:hover {
   color: #195464;
 }
-.pastel-gradient-theme #main #games a {
+.pastel-gradient #main #games a {
   color: #48b7cb;
 }
-.pastel-gradient-theme #main #games .title,
-.pastel-gradient-theme #main #games a:hover {
+.pastel-gradient #main #games .title,
+.pastel-gradient #main #games a:hover {
   color: #267887;
 }
-.pastel-gradient-theme #main #misc a {
+.pastel-gradient #main #misc a {
   color: #63c2c1;
 }
-.pastel-gradient-theme #main #misc .title,
-.pastel-gradient-theme #main #misc a:hover {
+.pastel-gradient #main #misc .title,
+.pastel-gradient #main #misc a:hover {
   color: #368988;
 }
-.pastel-gradient-theme #main #productivity a {
+.pastel-gradient #main #productivity a {
   color: #91ccc0;
 }
-.pastel-gradient-theme #main #productivity .title,
-.pastel-gradient-theme #main #productivity a:hover {
+.pastel-gradient #main #productivity .title,
+.pastel-gradient #main #productivity a:hover {
   color: #4ea996;
 }
-.pastel-gradient-theme #main #financial a {
+.pastel-gradient #main #financial a {
   color: #63c684;
 }
-.pastel-gradient-theme #main #financial .title,
-.pastel-gradient-theme #main #financial a:hover {
+.pastel-gradient #main #financial .title,
+.pastel-gradient #main #financial a:hover {
   color: #348f52;
 }
-.bright-theme {
-  background-color: #fff;
-}
-.bright-theme #main {
+.bright #main {
   margin: 30px 100px;
 }
-.bright-theme #main .section {
+.bright #main .section {
   margin-bottom: 25px;
 }
-.bright-theme #main a:hover {
+.bright #main a:hover {
   color: #ccd6dd !important;
 }
-.bright-theme #main .icons a {
+.bright #main .icons a {
   margin-right: 5px;
 }
-.bright-theme #main #socialmedia a {
+.bright #main #socialmedia a {
   color: #2d6ea3;
 }
-.bright-theme #main #socialmedia .title {
+.bright #main #socialmedia .title {
   color: #62a1d4;
 }
-.bright-theme #main #music a {
+.bright #main #music a {
   color: #fd7339;
 }
-.bright-theme #main #music .title {
+.bright #main #music .title {
   color: #feba9e;
 }
-.bright-theme #main #softwaredev a {
+.bright #main #softwaredev a {
   color: #772c94;
 }
-.bright-theme #main #softwaredev .title {
+.bright #main #softwaredev .title {
   color: #ad58ce;
 }
-.bright-theme #main #games a {
+.bright #main #games a {
   color: #fdaa39;
 }
-.bright-theme #main #games .title {
+.bright #main #games .title {
   color: #fed59e;
 }
-.bright-theme #main #misc a {
+.bright #main #misc a {
   color: #27ac76;
 }
-.bright-theme #main #misc .title {
+.bright #main #misc .title {
   color: #5edba8;
 }
-.bright-theme #main #productivity a {
+.bright #main #productivity a {
   color: #df4d3c;
 }
-.bright-theme #main #productivity .title {
+.bright #main #productivity .title {
   color: #ed9d94;
 }
-.bright-theme #main #financial a {
+.bright #main #financial a {
   color: #95ce37;
 }
-.bright-theme #main #financial .title {
+.bright #main #financial .title {
   color: #c0e289;
+}
+.side-by-side .title,
+.side-by-side .icons {
+  display: inline-block;
+}
+.side-by-side .section {
+  display: block;
+}
+.lobster {
+  font-family: "Lobster", sans-serif;
+}
+.lobster .section {
+  margin-bottom: 20px;
+}
+.lobster .title {
+  color: #444;
+  letter-spacing: 0px;
+}
+.lobster .icons a {
+  color: #5a5;
+}
+.blocks {
+  text-align: center;
+}
+.blocks .title {
+  text-transform: uppercase;
+}
+.blocks .icons {
+  margin: 30px;
+}
+.blocks .icons a {
+  margin: 10px 5px;
+  background-color: #eee;
+  color: #666;
+  vertical-align: center;
+}
+.blocks .icons a.l {
+  padding: 20px;
+}
+.blocks .icons a.m {
+  padding: 20px;
+}
+.blocks .icons a.s {
+  padding: 22px;
+}
+.blocks .icons a:hover {
+  background-color: #666;
+  color: #eee;
 }

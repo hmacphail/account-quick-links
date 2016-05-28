@@ -1,9 +1,7 @@
 /*** DEFAULT PROPERTIES ***/
 body {
   font: 32px/32px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
   color: #ccc;
-  background: white;
 }
 .title {
 	font-size: 20px;
@@ -17,12 +15,21 @@ body {
     color: #9bddf8;
   }
 }
+#footer {
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  select {
+    font: 14px Arial, sans-serif;
+    padding: 3px 5px;
+  }
+}
 .l { font-size: 22px; }
 .m { font-size: 20px; }
 .s { font-size: 18px; }
 
 /*** THEMES ***/
-.pastel-gradient-theme {
+.pastel-gradient {
   @color1: #9e8cd9; @color2: #ad87d2; @color3: #2d98b6; @color4: #48b7cb; @color5: #63c2c1; @color6: #91ccc0; @color7: #63c684; @color8: #9bca5b; @color9: #f3a533; @color10: #f35a4e;
 
   background-color: #fefefe;
@@ -70,11 +77,9 @@ body {
   }
 }
 
-
-.bright-theme {
+.bright {
   @color1: #2d6ea3; @color2: #fd7339; @color3: #772c94; @color4: #fdaa39; @color5: #27ac76; @color6: #df4d3c; @color7: #95ce37;
 
-  background-color: #fff;
   #main {
     margin: 30px 100px;
     .section {
@@ -113,6 +118,57 @@ body {
     #financial {
       a { color: @color7; }
       .title { color: lighten(@color7, 20%); }
+    }
+  }
+}
+
+.side-by-side {
+  .title, .icons {
+    display: inline-block;
+  }
+  .section {
+    display: block;
+  }
+}
+
+.lobster {
+  font-family: "Lobster", sans-serif;
+  .section {
+    margin-bottom: 20px;
+  }
+  .title{
+    color: #444;
+    letter-spacing: 0px;
+  }
+  .icons a {
+    color: #5a5;
+  }
+}
+
+.title-underline-below {
+}
+
+.blocks {
+  text-align: center;
+  .title {
+    text-transform: uppercase;
+  }
+  .icons {
+    margin: 30px;
+    a {
+      margin: 10px 5px;
+      background-color: #eee;
+      color: #666;
+      vertical-align: center;
+
+      &.l { padding: 20px; }
+      &.m { padding: 20px; }
+      &.s { padding: 22px; }
+
+      &:hover {
+        background-color: #666;
+        color: #eee;
+      }
     }
   }
 }
